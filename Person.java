@@ -29,7 +29,7 @@ public class Person{
 	
 	@Override
 	public String toString(){
-		return "My name is " + this.name + " and my number is " + this.number;
+		return "My name was " + this.name + " and my number was " + this.number;
 	}
 	
 }

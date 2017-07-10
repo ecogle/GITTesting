@@ -3,32 +3,32 @@ public class Person{
 	private int number;
 	
 	//setters
-	public void setName(String name){
+	public void setNames(String name){
 		this.name = name;
 	}
 	
 	//getters
-	public void setNumber(int number){
+	public void setNumbers(int number){
 		this.number = number;
 	}
 	
-	public int getNumber(){
+	public int getNumbers(){
 		
 		return this.number;
 	}
 	
-	public String getName(){
+	public String getNames(){
 		return this.name;
 	}
 	
-	public Person(String name, int number){
+	public Persons(String name, int number){
 		
 		this.name = name;
 		this.number = number;
 	}
 	
 	@Override
-	public String toString(){
+	public String toStrings(){
 		return "My name was " + this.name + " and my number was " + this.number;
 	}
 	
